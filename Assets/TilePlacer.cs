@@ -4,7 +4,7 @@ using UnityEngine.Tilemaps;
 public class TilePlacer : MonoBehaviour
 {
 	[SerializeField] private Tilemap tiles;
-	[SerializeField] private Tile tile;
+	[SerializeField] private RuleTile tile;
 
 	[SerializeField] private Vector3Int location;
 
