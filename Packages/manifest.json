@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.febucci.custom-hierarchy": "https://github.com/febucci/unitypackage-custom-hierarchy.git",
+    "com.unity.2d.pixel-perfect": "5.0.3",
     "com.unity.2d.tilemap.extras": "2.2.3",
     "com.unity.cinemachine": "2.8.9",
     "com.unity.collab-proxy": "1.15.16",
