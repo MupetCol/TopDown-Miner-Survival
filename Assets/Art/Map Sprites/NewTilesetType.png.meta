@@ -523,7 +523,7 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -531,6 +531,69 @@ TextureImporter:
       bones: []
       spriteID: 1a475c7d4da071e4a8e0056d3788c7d6
       internalID: 1589553315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTilesetType_20
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 436
+        width: 48
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd99fa2497ebd04f96dec5a07e150ee
+      internalID: 838678170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTilesetType_21
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 527
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8051e86c86ba9ee48a256fda0f2607d7
+      internalID: 1305436024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewTilesetType_22
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 436
+        width: 49
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394f64e381cf0c1468c758d5146265ec
+      internalID: -1678832187
       vertices: []
       indices: 
       edges: []
