@@ -193,6 +193,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -301,6 +302,26 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a160d838ff8b4b4693ac20007e008c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AssetsPPU: 32
+  m_RefResolutionX: 320
+  m_RefResolutionY: 180
+  m_UpscaleRT: 0
+  m_PixelSnapping: 0
+  m_CropFrameX: 0
+  m_CropFrameY: 0
+  m_StretchFill: 0
 --- !u!1 &556902720
 GameObject:
   m_ObjectHideFlags: 0
@@ -18371,7 +18392,7 @@ Tilemap:
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -19, y: -12, z: 0}
-  m_Size: {x: 41, y: 23, z: 1}
+  m_Size: {x: 79, y: 77, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -27629,6 +27650,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7162429948633720082, guid: 1ac4cbc6b5797a746b688a39fccc26fe, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5046353
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162429948633720082, guid: 1ac4cbc6b5797a746b688a39fccc26fe, type: 3}
+      propertyPath: m_Size.y
+      value: 0.09620452
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162429948633720082, guid: 1ac4cbc6b5797a746b688a39fccc26fe, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.00015887618
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162429948633720082, guid: 1ac4cbc6b5797a746b688a39fccc26fe, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.75029194
+      objectReference: {fileID: 0}
     - target: {fileID: 7162429948782017677, guid: 1ac4cbc6b5797a746b688a39fccc26fe, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -27677,10 +27714,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7162429948866290869, guid: 1ac4cbc6b5797a746b688a39fccc26fe, type: 3}
+      propertyPath: m_Size.x
+      value: 0.7970823
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162429948866290869, guid: 1ac4cbc6b5797a746b688a39fccc26fe, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7926747
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162429948866290869, guid: 1ac4cbc6b5797a746b688a39fccc26fe, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162429948866290869, guid: 1ac4cbc6b5797a746b688a39fccc26fe, type: 3}
+      propertyPath: m_Offset.y
+      value: 1.1515385
+      objectReference: {fileID: 0}
     - target: {fileID: 7162429948885491396, guid: 1ac4cbc6b5797a746b688a39fccc26fe, type: 3}
       propertyPath: tiles
       value: 
       objectReference: {fileID: 1275162483}
+    - target: {fileID: 7162429949224173301, guid: 1ac4cbc6b5797a746b688a39fccc26fe, type: 3}
+      propertyPath: m_Size.x
+      value: 0.6032882
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162429949224173301, guid: 1ac4cbc6b5797a746b688a39fccc26fe, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6486471
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162429949224173301, guid: 1ac4cbc6b5797a746b688a39fccc26fe, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.004847288
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162429949224173301, guid: 1ac4cbc6b5797a746b688a39fccc26fe, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.32238373
+      objectReference: {fileID: 0}
     - target: {fileID: 7162429949984175959, guid: 1ac4cbc6b5797a746b688a39fccc26fe, type: 3}
       propertyPath: tile
       value: 
