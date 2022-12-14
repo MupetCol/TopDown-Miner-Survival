@@ -3,7 +3,7 @@ using UnityEngine.Tilemaps;
 
 public class TileDestroyer : MonoBehaviour
 {
-	[SerializeField] private Tilemap tiles;
+	public Tilemap tileMap;
 
 	[SerializeField] private Vector3Int location;
 
@@ -19,8 +19,8 @@ public class TileDestroyer : MonoBehaviour
 		if (Input.GetMouseButtonDown(0))
 		{
 			Vector3 mp = m_Camera.ScreenToWorldPoint(Input.mousePosition);
-			location = tiles.WorldToCell(mp);
-			tiles.SetTile(location, null);
+			location = tileMap.WorldToCell(mp);
+			tileMap.SetTile(location, null);
 		}
 	}
 }

@@ -2,23 +2,14 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-	#region PUBLIC_VARIABLES
+	#region PRIVATE_VARIABLES
 
 	[SerializeField] private float _speed = 1f;
+	[SerializeField] private BoolReference _canMove;
 	private Animator _animator;
 
 	#endregion
 
-	#region PRIVATE_VARIABLES
-
-
-	#endregion
-
-	#region PRIVATE_SERIALIZED_VARIABLES
-
-
-
-	#endregion
 
 	#region UNITY_METHODS
 
@@ -29,7 +20,16 @@ public class PlayerMovement : MonoBehaviour
 
 	void Update()
 	{
+		if (_canMove.toggle)
+		{
+			Move();
+		}		
+	}
+
+	private void Move()
+	{
 		Vector3 totalMovement = Vector3.zero;
+
 
 		// Each key adds to the total movement so it can be normalized before sent
 		// Also sets animator bool on key press
@@ -68,7 +68,7 @@ public class PlayerMovement : MonoBehaviour
 			//transform.localScale = new Vector3(1, 1, 1);
 		}
 
-		if(_animator != null)
+		if (_animator != null)
 		{
 			// For reseting animators bool when each key is no longer pressed
 			if (Input.GetKeyUp(KeyCode.W))
@@ -89,10 +89,10 @@ public class PlayerMovement : MonoBehaviour
 			}
 		}
 
-
 		transform.Translate(totalMovement.normalized * Time.deltaTime * _speed);
-		_animator.SetFloat("Speed", Mathf.Abs(totalMovement.x*_speed + totalMovement.y*_speed));
+		_animator.SetFloat("Speed", Mathf.Abs(totalMovement.x * _speed + totalMovement.y * _speed));
 	}
 
 	#endregion
 }
+
