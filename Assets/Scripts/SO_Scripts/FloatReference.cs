@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "FloatReference", fileName = "FloatVar")]
+[CreateAssetMenu(menuName = "ScriptableReferences/FloatReference", fileName = "FloatVar")]
 public class FloatReference : ScriptableObject
 {
 	public float value;
